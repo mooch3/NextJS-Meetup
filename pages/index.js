@@ -42,7 +42,7 @@ export const getStaticProps = async () => {
       })),
     },
     // regenerates every 10 seconds on the server and new pages replace old pages
-    revalidate: 10,
+    revalidate: 1,
   };
 };
 
